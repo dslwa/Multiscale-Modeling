@@ -86,8 +86,9 @@ The stats panel displays:
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
+```
 monteca-grain-growth/
 ├── src/
 │   ├── main/
@@ -122,6 +123,23 @@ monteca-grain-growth/
 │       └── styles/style.css
 ├── pom.xml
 └── README.md
+```
+
+## 👥 Contributing
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/X`)
+3. Commit your changes (`git commit -m "Add feature X"`)
+4. Push to your branch (`git push origin feature/X`)
+5. Open a Pull Request
+
+Please follow the existing code style and include tests for new functionality.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 
 ![obraz](https://github.com/user-attachments/assets/3c9e9fbe-cd86-43b1-b388-fcc67762f348)
