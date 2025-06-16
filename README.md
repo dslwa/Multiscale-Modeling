@@ -1,7 +1,6 @@
 # MonteCA Grain‑Growth Simulator
 
 A multiscale 2D grain growth simulator that combines Cellular Automata with a Metropolis Monte Carlo algorithm. Designed for materials science research and educational purposes, MonteCA lets you observe and influence the coarsening of microstructures via an intuitive JavaFX interface.
----
 
 ## 🔍 Features
 
