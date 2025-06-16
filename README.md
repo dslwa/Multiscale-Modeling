@@ -85,3 +85,43 @@ The stats panel displays:
 * **UI**: JavaFX `GridCanvas`, `ControlPanel`, `StatsPanel`, and `CanvasClickHandler`.
 
 ---
+
+## Project Structure
+
+monteca-grain-growth/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/multiscaleca/
+│   │   │   ├── algorithm/
+│   │   │   │   └── MonteCarloSimulator.java
+│   │   │   ├── model/
+│   │   │   │   ├── Cell.java
+│   │   │   │   ├── Grid.java
+│   │   │   │   └── GrainStats.java
+│   │   │   ├── model/util/
+│   │   │   │   └── BoundaryType.java
+│   │   │   ├── neighborhood/
+│   │   │   │   ├── NeighborhoodStrategy.java
+│   │   │   │   ├── VonNeumannStrategy.java
+│   │   │   │   ├── MooreStrategy.java
+│   │   │   │   ├── PentagonalStrategy.java
+│   │   │   │   └── RandomHexagonalStrategy.java
+│   │   │   ├── seeding/
+│   │   │   │   ├── GrainSeeder.java
+│   │   │   │   ├── RandomSeeder.java
+│   │   │   │   ├── UniformSeeder.java
+│   │   │   │   └── ManualSeeder.java
+│   │   │   └── ui/
+│   │   │       ├── GridCanvas.java
+│   │   │       ├── ControlPanel.java
+│   │   │       ├── StatsPanel.java
+│   │   │       ├── event/
+│   │   │       │   └── CanvasClickHandler.java
+│   │   │       └── MainApp.java
+│   └── resources/
+│       └── styles/style.css
+├── pom.xml
+└── README.md
+
+
+![obraz](https://github.com/user-attachments/assets/3c9e9fbe-cd86-43b1-b388-fcc67762f348)
