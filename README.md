@@ -1,23 +1,18 @@
-# Grain Growth Cellular Automaton
+# MonteCA Grain‑Growth Simulator
 
-A JavaFX application that simulates grain growth using Cellular Automaton (CA) techniques. Users can seed grains randomly, uniformly, or manually, choose neighborhood types (Von Neumann or random pentagonal), and switch between periodic and absorbing boundary conditions.
-
+A multiscale 2D grain growth simulator that combines Cellular Automata with a Metropolis Monte Carlo algorithm. Designed for materials science research and educational purposes, MonteCA lets you observe and influence the coarsening of microstructures via an intuitive JavaFX interface.
 ---
 
-## Features
+## 🔍 Features
 
-- **Seeding Modes**
-  - **Random**: Seeds a specified number of grains at random positions.
-  - **Uniform**: Distributes grains evenly in a grid pattern.
-  - **Manual**: Allows clicking on the canvas to place grains one by one.
+- Dual-Scale Modeling: Cellular Automaton for deterministic grain expansion and Metropolis Monte Carlo for stochastic boundary smoothing.
 
-- **Neighborhood Types**
-  - **Von Neumann**: 4 orthogonal neighbors.
-  - **Random Pentagonal**: Randomly selects one of five pentagonal configurations.
+- Flexible Neighborhoods: Von Neumann, Moore, Pentagonal (random), Hexagonal (random).
 
-- **Boundary Conditions**
-  - **Periodic**: Edges wrap around (toroidal grid).
-  - **Absorbing**: Edges are fixed; cells outside the grid are ignored.
+- Seeding Modes: Random, Uniform grid, Manual placement.
 
-- **Interactive Controls** via JavaFX UI components.
-- **Dark-themed CSS** for a modern look.
+- Boundary Types: Periodic (wrap-around) or Absorbing (fixed edge).
+
+- Interactive UI: Real-time rendering and statistics panel showing grain count, size distribution, and density.
+
+- Export: OVITO-compatible ASCII export (output_ovito.txt) for 3D rendering and analysis.
