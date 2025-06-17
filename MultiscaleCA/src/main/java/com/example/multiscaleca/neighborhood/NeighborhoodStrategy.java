@@ -1,6 +1,5 @@
 package com.example.multiscaleca.neighborhood;
 
-
 import com.example.multiscaleca.model.Grid;
 import com.example.multiscaleca.model.Cell;
 import java.util.List;
